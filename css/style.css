@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: public-Thin;
+  src: url("../fonts/PublicSans-Thin.ttf");
+}
+@font-face {
+  font-family: puplic-Regular;
+  src: url("../fonts/PublicSans-Regular.ttf");
+}
+.container {
+  padding: 2% ;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.link {
+  text-decoration: none;
+  padding-left: 10px;
+  font-family: puplic-Regular;
+  color: #abacb7;
+  font-size: 17px;
+}
+.buton {
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  padding: 9px 17px;
+  background-color: #2d314d;
+  color: white;
+  border-style: none;
+  font-family: public-Thin;
+}
+.buton:hover {
+  background-color: #4d5cb3;
+  color: black;
+}
+.para-chart {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+  padding-left: 5%;
+  width: 100%;
+}
+.next-generation {
+  color: #2d314d;
+  font-family: public-Thin;
+  font-size: 53px;
+  margin-top: 12%;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.explain {
+  color: #9597a5;
+  font-family: puplic-Regular;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+.boxes {
+  background-color: #fafafa;
+  margin-top: 50px;
+}
+.para {
+  padding-top: 50px;
+}
+.quation {
+  font-family: public-Thin;
+
+  font-size: 30px;
+  color: #2d314d;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.reason {
+  font-family: puplic-Regular;
+  font-size: 19px;
+  color: #9597a5;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  text-align: left;
+}
+.some-reason {
+  padding-left: 9px;
+  padding-top: 20px;
+}
+.reason2 {
+  font-family: puplic-Regular;
+  font-size: 30px;
+  color: #2d314d;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.online {
+  font-size: 17;
+  font-family: puplic-Regular;
+  color: #9597a5;
+}
+.fa-cc-discover {
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  width: 70px;
+  height: 68px;
+  background-color: #2d314d;
+  color: white;
+}
+.fa-mobile-alt {
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  width: 70px;
+  height: 68px;
+  background-color: #2d314d;
+  color: white;
+}
+.fa-people-arrows {
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  width: 70px;
+  height: 68px;
+  background-color: #2d314d;
+  color: white;
+}
+.fa-tasks {
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  width: 70px;
+  height: 68px;
+  background-color: #2d314d;
+  color: white;
+}
+.latest {
+  font-family: puplic-Regular;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: #2d314d;
+  font-size: 37px;
+}
+.photo {
+  display: flex;
+  justify-content: space-between;
+}
+.explain-photo {
+  background-color: #fff;
+  border: none;
+  margin-bottom: 10%;
+}
+.writer {
+  margin-top: 17px;
+  font-family: puplic-Regular;
+  font-size: 15px;
+  color: #9597a5;
+  margin-bottom: 10px;
+}
+.explain-photo {
+  font-family: puplic-Thin;
+  color: #2d314d;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.about {
+  font-family: puplic-Regular;
+  color: #9597a5;
+  font-size: 16px;
+}
+.fotar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  background-color: #2d314d;
+  padding: 15px 67px;
+}
+.easy-bank {
+  margin-top: 30px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.last-buton {
+  background-color: #30c88f;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 40px;
+  color: white;
+  border-style: none;
+  font-family: public-Thin;
+  margin-bottom: 20px;
+}
+p {
+  color: white;
+  font-family: puplic-Regular;
+  margin-bottom: 8px;
+}
+.fa-facebook-square {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.fa-whatsapp {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.fa-twitter {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.fa-instagram {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.about-us {
+  margin-top: 40px;
+  font-size: 16px;
+}
+.button {
+  margin-top: 40px;
+  font-size: 16px;
+  margin-right: 7px;
+  margin-left: 37px;
+}
